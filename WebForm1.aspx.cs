@@ -44,6 +44,7 @@ namespace WebApplication9
                 if (listitem.Selected)
                     Label13.Text += listitem.Text + "<br/>";
             }
+            CheckBoxList1.SelectedIndex = -1;
         }
 
         protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
